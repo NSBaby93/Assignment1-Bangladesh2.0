@@ -8,7 +8,9 @@
 /* Menu Bar Styles Starts Here */
 .menu-bar {
   height: 100px;
-  padding: 24px 160px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 24px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,5 +71,77 @@ main {
   max-width: 100%;
   height: auto;
 }
-
 /* Banner Area Styles Ends Here */
+
+/* Vision Area Styles Starts Here */
+.vision-area {
+  height: 400px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  background-color: #f5f5f5;
+}
+.vision-content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+.vision-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #535353;
+  padding: 24px 0 32px 0;
+}
+.vision-target {
+  display: flex;
+  gap: 24px;
+}
+.vision-target img {
+  margin-bottom: 24px;
+}
+.vision-target h3 {
+  color: #36383c;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.vision-target p {
+  color: #4a4d53;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  height: 60px;
+}
+.vision-target button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+.target1 button {
+  background-color: #5490f5;
+}
+.target2 button {
+  background-color: #ffc239;
+}
+.target3 button {
+  background-color: #09a15c;
+}
+.target1,
+.target2,
+.target3 {
+  border-radius: 16px;
+  padding: 32px;
+}
+.target1 {
+  background-color: #c6e4d6;
+}
+.target2 {
+  background-color: #f7ebcf;
+}
+.target3 {
+  background-color: #c6e4d6;
+}
+/* Vision Area Styles Ends Here */
