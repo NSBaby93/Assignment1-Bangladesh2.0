@@ -145,6 +145,37 @@ main {
   background-color: #c6e4d6;
 }
 /* Vision Area Styles Ends Here */
+/* Quotation Area Styles Starts Here */
+.quotation-area{
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px;
+  background-color: #F5F5F5;
+}
+.quotation-content{
+  padding: 48px 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 16PX;
+}
+.quote p{
+  background-image: url(images/quote-bg.png);
+  background-repeat: no-repeat;
+  line-height: 1.7;
+  
+}
+.quote p, .author p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+.author h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #3E3E3E;
+  padding: 12px 0 4px 0;
+}
+/* Quotation Area Styles Ends Here */
 
 /* News Area Styles Starts Here */
 .news-area{
