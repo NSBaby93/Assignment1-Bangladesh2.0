@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -365,3 +365,38 @@ input[type="text"] {
   padding: 0 10px;
 }
 /* Footer Area Styles Ends Here */
+
+/* All Hover Styles Starts Here */
+.sign-in-btn:hover {
+  color: #f5f5f5;
+  background-color: #006a50;
+}
+.primary-btn:hover{
+  color: #006a50;
+  background-color: #ffffff;
+  border: 1px solid #006a50;
+}
+.target1 button:hover {
+  color: #5490f5;
+  background-color: #fff;
+  border: 1px solid #5490f5;
+}
+.target2 button:hover {
+  color: #ffc239;
+  background-color: #fff;
+  border: 1px solid #ffc239;
+}
+.target3 button:hover {
+  color: #09a15c;
+  background-color: #fff;
+  border: 1px solid #09a15c;
+}
+.subscribe-btn input:hover{
+  color: #00644B;
+  background-color: #ffffff;
+}
+.donate-btn button:hover{
+  background: #C6E4D6;
+}
+/* All Hover Styles Ends Here */
+
