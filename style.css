@@ -255,4 +255,62 @@ button.selected-btn {
 input[type="text"] {
   background-color: #FFFFFF;
 }
+
 /* Donate Area Styles Ends Here */
+/* Subscribe Area Styles Starts Here */
+.subscribe-area{
+  /* height: 464px; */
+  width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 50px;
+  background-color: #f5f5f5;
+}
+.subscribe-content{
+  /* height: 400px; */
+  /* width: 1184px; */
+  margin: 0 auto;
+  padding: 80px 100px;
+  background-color: #C6E4D6;
+}
+.subscribe-title h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #oeoeoe;
+  margin-bottom: 16px;
+}
+.subscribe-subtitle p, .subscribe-promise p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+}
+.email-beside-subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 24px 0;
+}
+.subscribe-email input{
+  height: 55px;
+  width: 560px;
+  padding-left: 40px;
+  color: #B7B7B7;
+  background-color: #FFFFFF;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px 0 0 8px;
+}
+.subscribe-btn input{
+  height: 55px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #00644B;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0 8px 8px 0;
+}
+/* Subscribe Area Styles Ends Here */
