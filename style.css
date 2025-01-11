@@ -75,7 +75,7 @@ main {
 
 /* Vision Area Styles Starts Here */
 .vision-area {
-  height: 400px;
+  height: 420px;
   width: 1280px;
   margin: 0 auto;
   padding: 60px 50px;
@@ -145,3 +145,62 @@ main {
   background-color: #c6e4d6;
 }
 /* Vision Area Styles Ends Here */
+
+/* News Area Styles Starts Here */
+.news-area{
+  height: 1420px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background-color: #f5f5f5;
+}
+.news-title h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #oeoeoe;
+  margin-bottom: 24px;
+}
+.news-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #545454;
+  margin-bottom: 32px;
+}
+.post-img img{
+  height: 306px;
+  width: 408px;
+  border-radius: 24px;
+  margin-right: 32px;
+
+}
+.blog-post1, .blog-post2, .blog-post3{
+  padding: 48px;
+  display: flex;
+  height: 306px;
+  width: 1184px;
+  background-color: #FFFFFF;
+  margin-bottom: 24px;
+  border-radius: 24px;
+}
+
+.post-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #3E3E3E;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+.post-content img{
+  height: 40px;
+  width: 134px;
+}
+.post-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  padding-top: 18px;
+}
+.post-content button{
+  margin-top: 32px;
+}
+/* News Area Styles Ends Here */
