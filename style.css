@@ -290,7 +290,6 @@ input[type="text"] {
 /* Donate Area Styles Ends Here */
 /* Subscribe Area Styles Starts Here */
 .subscribe-area{
-  /* height: 464px; */
   width: 1280px;
   text-align: center;
   margin: 0 auto;
@@ -345,3 +344,24 @@ input[type="text"] {
   border-radius: 0 8px 8px 0;
 }
 /* Subscribe Area Styles Ends Here */
+/* Footer Area Styles Starts Here */
+
+.footer-area{
+  width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 50px;
+  background-color: #fff;
+}
+.footer-area hr{
+  margin: 32px 0;
+}
+.footer-text h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+.footer-icon img{
+  padding: 0 10px;
+}
+/* Footer Area Styles Ends Here */
